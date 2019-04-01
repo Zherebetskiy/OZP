@@ -1,6 +1,9 @@
-﻿namespace OZP.Domain.Models
+﻿using OZP.Abstractions;
+using OZP.Abstractions.ModelInterfaces;
+
+namespace OZP.Domain.Models
 {
-    public class Person
+    public class Person : IPerson
     {
         public double Weight { get; set; }
         public int InFlour { get; set; }

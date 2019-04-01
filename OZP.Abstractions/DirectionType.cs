@@ -1,4 +1,4 @@
-﻿namespace OZP.Domain
+﻿namespace OZP.Abstractions
 {
     public enum DirectionType
     {

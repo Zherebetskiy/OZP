@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OZP.Domain.Interfaces
+namespace OZP.Abstractions.ModelInterfaces
 {
     public interface IFlour
     {
